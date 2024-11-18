@@ -11,6 +11,7 @@
 
 html, body {
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 /* Reseta estilos padrões */
@@ -128,6 +129,21 @@ form button {
 
 form button:hover {
     background-color: #4a90e2;
+}
+
+.success-message {
+    display: none;
+    text-align: center;
+    background-color: #e7ffe7;
+    color: #2d862d;
+    padding: 15px;
+    border: 1px solid #2d862d;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.success-message.active {
+    display: block;
 }
 
 /* Main Section */
