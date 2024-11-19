@@ -146,8 +146,14 @@ form button:hover {
 .form-group {
     display: flex;
     flex-direction: column;
-    width: calc(50% - 10px);
+    width: calc(50% - 25px);
     align-items: center;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 35px; /* Espaço entre o botão e o texto */
 }
 
 .success-message {
