@@ -35,6 +35,17 @@ header {
     background-color: var(--cor-fundo);
     padding: 10px 20px;
     color: var(--cor-texto);
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 1%; /* Ajuste o tamanho da logo conforme necessário */
+    margin-right: 5px; /* Espaçamento entre a logo e o nome */
 }
 
 .navbar {
