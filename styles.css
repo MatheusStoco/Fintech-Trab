@@ -515,3 +515,21 @@ video {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.success-message {
+    display: none; /* Ocultar a mensagem por padrão */
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: green;
+}
+
+.success-message img {
+    width: 50px; /* Tamanho do ícone */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#mensagem-sucesso:target {
+    display: block; /* Exibir a mensagem quando o alvo for alcançado */
+}
